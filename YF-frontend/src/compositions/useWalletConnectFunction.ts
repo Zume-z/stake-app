@@ -5,9 +5,9 @@ import { ethers, constants } from 'ethers'
 import ethAbi from '../assets/abi/ethAbi.json'
 import rewAbi from '../assets/abi/rewAbi.json'
 import tokenFarm from '../assets/abi/tokenFarmAbi.json'
-import { computed, ComputedRef, Ref, ref } from 'vue'
-import WalletConnectProvider from '@walletconnect/web3-provider'
-import { Web3Provider, ExternalProvider } from '@ethersproject/providers'
+import { computed, type ComputedRef, type Ref, ref } from 'vue'
+import { Web3Provider, type ExternalProvider } from '@ethersproject/providers'
+import WalletConnectProvider from '@walletconnect/web3-provider/dist/umd/index.min.js'
 
 let signer: any
 let provider: Web3Provider | null = null

@@ -3,7 +3,7 @@
     <div class="w-[108rem] flex-none flex justify-end">
       <picture>
         <source srcset="../assets/img/dark-bg-2.avif" type="image/avif" />
-        <img src="../assets/img/dark-bg.png" alt="" class="w-[71.75rem] flex-none max-w-none dark:hidden" />
+        <img src="../assets/img/dark-bg.png" alt="" class="w-[71.75rem] flex-none max-w-none" />
       </picture>
     </div>
   </div>

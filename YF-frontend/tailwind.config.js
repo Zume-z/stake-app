@@ -1,7 +1,5 @@
 module.exports = {
-  mode: 'jit',
-  purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-  darkMode: false,
+  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     extend: {
       animation: {
@@ -21,21 +19,14 @@ module.exports = {
           },
         },
       },
-
       screens: {
         xs: '475px',
         '3xl': '1920px',
       },
     },
     fontFamily: {
-      jura: ['Nb Grotesk Pro Mono', 'sans-serif'],
-    },
-    fontFamily: {
       Nb: ['Nb International Pro', 'sans-serif'],
     },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [require('@tailwindcss/aspect-ratio')],
 }
