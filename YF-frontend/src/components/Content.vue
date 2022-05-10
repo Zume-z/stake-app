@@ -8,7 +8,7 @@
         <div :class="loading && 'opacity-0'">
           <div class="flex flex-row w-full place-content-center text-center mb-8">
             <div class="grid w-full grid-cols-3">
-              <div class="text-xl col-start-2">Yield Farm</div>
+              <div class="text-xl col-start-2">Staking App</div>
               <div class="flex justify-end">
                 <div
                   class="text-xl w-8 border-gray-800 box-border border transition duration-300 ease-in-out font-Nb hover:bg-gray-100 hover:text-gray-900 active:bg-gray-300 z-10 cursor-pointer"
